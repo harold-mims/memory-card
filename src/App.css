@@ -1,0 +1,125 @@
+@font-face {
+  font-family: wanted-poster-font;
+  src: url(./assets/PlayfairDisplay-Bold.ttf);
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loading-img {
+  width: 160px;
+}
+
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .loading-img {
+    animation: loading-spin infinite 1s linear;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+}
+
+.memory-game-container {
+  margin: 0 2rem;
+}
+
+.memory-card {
+  /* background-color: dimgray; */
+  padding: 0 1rem 1rem 1rem;
+
+  /* background-color: #9e6e3c; */
+  /* background-image: url("./assets/1454771477.svg"); */
+  /* background-image: url("./assets/parchment-tiling.jpg"); */
+  background-color: #beaa8a;
+  background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 15l15 15H0V15zM15 0l15 15V0H15z' fill='%23000000' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.card-title {
+  font-family: wanted-poster-font;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #43312d;
+
+  margin: 0px;
+}
+
+.card-name {
+  font-family: wanted-poster-font;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #43312d;
+
+  margin: 0px;
+}
+
+.card-image {
+  width: 18rem;
+  height: 22rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card-image--straw-hats,
+.card-image--villians {
+  object-position: top;
+}
+
+.card-image--devil-fruits {
+  object-position: center;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 128px;
+
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.game-mode-select-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.game-mode-select-container__btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.game-mode-select-container__how-to-play__header {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.game-mode-select-container__how-to-play__description {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.game-mode-btn {
+  font-size: x-large;
+  font-weight: 600;
+}

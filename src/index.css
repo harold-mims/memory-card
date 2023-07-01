@@ -1,0 +1,139 @@
+@font-face {
+  font-family: OnePieceFont;
+  src: url(./assets/one_piece_font.ttf);
+  
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  color: #242424;
+  background-color: #87CEEB;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: center;
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #96642c; 
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  background-image: url("./assets/1454771477.svg");
+
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.nav {
+  /*background-color: #242424;*/
+  color: #242424;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 2rem;
+  padding: 0 1 rem;
+}
+
+.navbar-logo {
+  max-height: 80px;
+}
+
+.site-header {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin: 0px 32px;
+
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+
+  font-family: OnePieceFont;
+}
+.site-title {
+  margin: 0px;
+
+  /* background-image: linear-gradient(#48c0ff, #020cd1);
+  background-clip: text;
+  color: transparent; */
+}
+
+.githubLink {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 0px 32px;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #242424;
+  color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 2rem;
+  margin: 0;
+}

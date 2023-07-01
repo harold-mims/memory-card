@@ -1,0 +1,150 @@
+.waves {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+
+  z-index: -3;
+}
+
+.front-wave {
+  z-index: -1;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+.parallax > use:nth-child(6) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+.parallax > use:nth-child(7) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+
+  z-index: -1;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .content {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.thousand-sunny-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+
+  z-index: -3;
+}
+
+.thousand-sunny-img {
+  position: fixed;
+  bottom: 16px;
+  left: 10vw;
+
+  height: 12rem;
+  object-fit: contain;
+  animation: rocking-sunny-rot 7s infinite cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.thousand-sunny__anim-x {
+  animation: rocking-sunny-x 7s infinite cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.thousand-sunny__anim-y {
+  animation: rocking-sunny-y 5s infinite cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+@keyframes rocking-sunny-rot {
+  0% {
+    animation-timing-function: ease-in-out;
+    transform: rotate(-10deg);
+  }
+  50% {
+    animation-timing-function: ease-in-out;
+    transform: rotate(10deg);
+  }
+  100% {
+    animation-timing-function: ease-in-out;
+    transform: rotate(-10deg);
+  }
+}
+
+/*thousand-sunny__anim-x*/
+@keyframes rocking-sunny-x {
+  0% {
+    animation-timing-function: ease-in-out;
+    transform: translate(-16px);
+  }
+  50% {
+    animation-timing-function: ease-in-out;
+    transform: translate(16px);
+  }
+  100% {
+    animation-timing-function: ease-in-out;
+    transform: translate(-16px);
+  }
+}
+
+/*thousand-sunny__anim-y*/
+@keyframes rocking-sunny-y {
+  0% {
+    animation-timing-function: ease-in-out;
+    transform: translate(0, -20px);
+  }
+  50% {
+    animation-timing-function: ease-in-out;
+    transform: translate(0, 5px);
+  }
+  100% {
+    animation-timing-function: ease-in-out;
+    transform: translate(0, -20px);
+  }
+}

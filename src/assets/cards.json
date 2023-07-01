@@ -1,0 +1,217 @@
+{
+  "strawhats": [
+    {
+      "name": "Monkey D. luffy",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Monkey_D_Luffy.png"
+    },
+    {
+      "name": "Roronoa Zoro",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Roronoa_Zoro.png"
+    },
+    {
+      "name": "Nami",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Nami.png"
+    },
+    {
+      "name": "Go D. Usopp",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Usopp.png"
+    },
+    {
+      "name": "Sanji",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Sanji.png"
+    },
+    {
+      "name": "Chopper",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Tony_Tony_Chopper.png"
+    },
+    {
+      "name": "Nico Robin",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Nico_Robin.png"
+    },
+    {
+      "name": "Franky",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Franky.png"
+    },
+    {
+      "name": "Brook",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Brook.png"
+    },
+    {
+      "name": "Jinbe",
+      "imgUrl": "./One-Piece-Photos/Straw-Hats/Jinbe.png"
+    }
+  ],
+  "villians": [
+    {
+      "name": "Buggy",
+      "imgUrl": "./One-Piece-Photos/Villians/Buggy.png"
+    },
+    {
+      "name": "Arlong",
+      "imgUrl": "./One-Piece-Photos/Villians/Arlong.png"
+    },
+    {
+      "name": "Crocodile",
+      "imgUrl": "./One-Piece-Photos/Villians/Crocodile.png"
+    },
+    {
+      "name": "Enel",
+      "imgUrl": "./One-Piece-Photos/Villians/Enel.png"
+    },
+    {
+      "name": "Blackbeard",
+      "imgUrl": "./One-Piece-Photos/Villians/Blackbeard.png"
+    },
+    {
+      "name": "Donquixote Doflamingo",
+      "imgUrl": "./One-Piece-Photos/Villians/Donquixote_Doflamingo.png"
+    },
+    {
+      "name": "Sakazuki",
+      "imgUrl": "./One-Piece-Photos/Villians/Sakazuki.png"
+    },
+    {
+      "name": "Charlos",
+      "imgUrl": "./One-Piece-Photos/Villians/Charlos.png"
+    },
+    {
+      "name": "Gecko Moria",
+      "imgUrl": "./One-Piece-Photos/Villians/Gecko_Moria.png"
+    },
+    {
+      "name": "Jesus Burgess",
+      "imgUrl": "./One-Piece-Photos/Villians/Jesus_Burgess.png"
+    },
+    {
+      "name": "Kizaru",
+      "imgUrl": "./One-Piece-Photos/Villians/Kizaru.png"
+    },
+    {
+      "name": "Rob Lucci",
+      "imgUrl": "./One-Piece-Photos/Villians/Lucci.png"
+    },
+    {
+      "name": "Foxy",
+      "imgUrl": "./One-Piece-Photos/Villians/Foxy.png"
+    },
+    {
+      "name": "Kaidou",
+      "imgUrl": "./One-Piece-Photos/Villians/Kaidou.png"
+    },
+    {
+      "name": "Big Mom",
+      "imgUrl": "./One-Piece-Photos/Villians/Big_Mom.png"
+    },
+    {
+      "name": "Charlotte Katakuri",
+      "imgUrl": "./One-Piece-Photos/Villians/Katakuri.png"
+    },
+    {
+      "name": "Charlotte Perospero",
+      "imgUrl": "./One-Piece-Photos/Villians/Perospero.png"
+    },
+    {
+      "name": "Black Maria",
+      "imgUrl": "./One-Piece-Photos/Villians/Black_Maria.png"
+    },
+    {
+      "name": "King",
+      "imgUrl": "./One-Piece-Photos/Villians/King.png"
+    },
+    {
+      "name": "Queen",
+      "imgUrl": "./One-Piece-Photos/Villians/Queen.png"
+    },
+    {
+      "name": "Orochi",
+      "imgUrl": "./One-Piece-Photos/Villians/Orochi.png"
+    }
+  ],
+  "devilfruits": [
+    {
+      "name": "Gum Gum Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Gomu_Gomu_no_Mi.png"
+    },
+    {
+      "name": "Chop Chop Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Bara_Bara_no_Mi.png"
+    },
+    {
+      "name": "Flare Flare Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Mera_Mera_no_Mi.png"
+    },
+    {
+      "name": "Dark Dark Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Yami_Yami_no_Mi.png"
+    },
+    {
+      "name": "Human Human Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Hito_Hito_no_Mi.png"
+    },
+    {
+      "name": "Sand Sand Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Suna_Suna_no_Mi.png"
+    },
+    {
+      "name": "Revive Revive Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Yomi_Yomi_no_Mi.png"
+    },
+    {
+      "name": "Flower Flower Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Hana_Hana_no_Mi.png"
+    },
+    {
+      "name": "String String Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Ito_Ito_no_Mi.png"
+    },
+    {
+      "name": "Magnet Magnet Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Jiki_Jiki_no_Mi.png"
+    },
+    {
+      "name": "Op Op Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Ope_Ope_no_Mi.png"
+    },
+    {
+      "name": "Mochi Mochi Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Mochi_Mochi_no_Mi.png"
+    },
+    {
+      "name": "Ox Ox Fruit, Model: Giraffe",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Ushi_Ushi_no_Mi,_Model_Giraffe.png"
+    },
+    {
+      "name": "Fish Fish Fruit, Model: Azure Dragon",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Uo_Uo_no_Mi,_Model_Seiryu.png"
+    },
+    {
+      "name": "Dog Dog Fruit, Model Okuchi-no-Makami",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Inu_Inu_no_Mi,_Model_Okuchi_no_Makami.png"
+    },
+    {
+      "name": "Shadow Shadow Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Kage_Kage_no_Mi.png"
+    },
+    {
+      "name": "Love Love Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Mero_Mero_no_Mi.png"
+    },
+    {
+      "name": "Cat Cat Fruit, Model: Leopard",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Neko_Neko_no_Mi,_Model_Leopard.png"
+    },
+    {
+      "name": "Plume Plume Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Moku_Moku_no_Mi.png"
+    },
+    {
+      "name": "Snake Snake Fruit, Model: Yamata-no-Orochi",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Hebi_Hebi_no_Mi,_Model_Yamata_no_Orochi.png"
+    },
+    {
+      "name": "Munch Munch Fruit",
+      "imgUrl": "./One-Piece-Photos/Devil-Fruits/Baku_Baku_no_Mi.png"
+    }
+
+  ]
+}
