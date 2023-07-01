@@ -57,6 +57,9 @@ function App() {
     if (allCards.length > 0) {
       setAllCards(shuffleCards(allCards));
     }
+    if (score > highScore) {
+      highScore = score;
+    }
   }, [score, gameState, allCards, shuffleCards]);
 
   function initializeCards() {
