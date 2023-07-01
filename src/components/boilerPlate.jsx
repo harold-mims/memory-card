@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="nav">
-      <a href="/" className="site-header" >
+      <a href="/memory-card/" className="site-header" >
         <img className ="navbar-logo" src="./One-Piece-Photos/One_Piece_Logo.png" />
         <p className= "site-title">MEMORY GAME</p>
       </a>
